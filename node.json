@@ -1,0 +1,6 @@
+{
+	"brightbox-ruby": {
+		"version": "2.1"
+	},
+	"run_list": ["recipe[apt]", "recipe[brightbox-ruby]", "recipe[main]"]
+}
